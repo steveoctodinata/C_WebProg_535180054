@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Kalkulator Sederhana</title>
+        <link rel="stylesheet" href="Kalkulator.css">
+    </head>
+    <body>
+        <center>
+        <form name="Kalkulator">
+            <table class="tabel">
+                <tr>
+                    <td>Bilangan 1</td>
+                    <td>: </td>
+                    <td><input type="number" name="bilangan1"></td>
+                </tr>
+                <tr>
+                    <td>Bilangan 2</td>
+                    <td>: </td>
+                    <td><input type="number" name="bilangan2"></td>
+                </tr>
+                <tr>
+                    <td>Hasil</td>
+                    <td>: </td>
+                    <td><input type="number" name="hasil"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="tombol" type="button" onclick="tambah()" value=" + ">
+                        <input class="tombol" type="button" onclick="kurang()" value=" - ">
+                        <input class="tombol" type="button" onclick="kali()" value=" x ">
+                        <input class="tombol" type="button" onclick="bagi()" value=" / ">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script src="Kalkulator.js"></script>
+    </center>
+    </body>
+</html>
